@@ -1,0 +1,9 @@
+##EXERCICIO 105
+
+alunos = int(input("Digite a quantidade de Alunos: "))
+soma = 0
+for i in range(alunos):
+    res = float(input("Digite as notas: "))
+    soma = soma + res
+    media = soma / alunos
+print ('A media da turma é', media)

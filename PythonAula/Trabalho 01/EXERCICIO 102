@@ -1,0 +1,12 @@
+#EXERCICIO 102
+
+ultimo = 2
+
+while(ultimo < 100):
+    if(ultimo == 2):
+        print(ultimo)
+
+    ultimo = ultimo + 3
+
+    if(ultimo < 100):
+        print(ultimo)

@@ -1,0 +1,14 @@
+#EXERCICIO 94
+
+ang = int(input("Digite o ângulo: "))
+
+if(ang > 0 and ang < 90):
+    print(f'o angulo {ang} se encontra no 1° quadrante')
+if(ang > 90 and ang < 180):
+    print(f'o angulo {ang} se encontra no 2° quadrante')
+if(ang > 180 and ang < 270):
+    print(f'o angulo {ang} se encontra no 3° quadrante')
+if(ang > 270 and ang < 360):
+    print(f'o angulo {ang} se encontra no 4° quadrante')
+if(ang > 360):
+        print('Reinicie e digite um angulo ate 360')

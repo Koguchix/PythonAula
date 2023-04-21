@@ -1,0 +1,8 @@
+## EXERCICIO 109 
+
+matriz = [[3,4,5],[2,5,4],[2,6,4]]
+for i in range(3):
+    for a in range(3):
+        print(" ",matriz[i][a], end = " ")
+    print()
+print('A diagonal principal e = ',matriz[0][0] + matriz[1][1] + matriz[2][2])
